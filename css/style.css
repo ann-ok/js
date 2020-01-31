@@ -3,8 +3,13 @@ h1
     color: rebeccapurple;
 }
 
-.field
+#input-text
 {
     display: block;
     margin-bottom: 20px;
+}
+
+span
+{
+    margin-right: 10px;
 }
