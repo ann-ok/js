@@ -4,17 +4,18 @@
 	<meta charset="utf-8">
 	<title>MySite</title>
 	<link rel="stylesheet" href="css/style.css"/>
-	<script src="js/script.js"></script>
 </head>
 <body>
 	<h1>Добавление элемента в список с помощью js.</h1>
-	<div class="form">
+	<div>
 		<input id="inp" class="field" type="text">
-		<input type="button" onclick="addNewLi()" value="Добавить элемент">
+		<input type="button" id="btn_elem" value="Добавить элемент">
 	</div>
 	<div>
+		<h2>Список элементов: </h2>
 		<ul id="list">
 		</ul>
 	</div>
+	<script src="js/script.js"></script>
 </body>
 </html>
