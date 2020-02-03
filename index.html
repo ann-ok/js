@@ -8,14 +8,28 @@
 <body>
 	<h1>Добавление элемента в список с помощью js.</h1>
 	<div>
-		<label for="input-text">Веедите текст элемента:</label>
+		<label for="input-text">Введите текст элемента:</label>
 		<input id="input-text" type="text">
 		<input id="button-add" type="button" value="Добавить элемент">
 	</div>
 	<div>
-		<h2>Список элементов: </h2>
-		<ul id="list-items">
-		</ul>
+		<h2>Список элементов:</h2>
+		<ul id="list-items"></ul>
+	</div>
+	<div id="radio-sorts">
+		<h2>Сортировка:</h2>
+		<label>
+			<input name="sort-type-buttons" type="radio" value="id-asc" checked>По возрастанию номера<br/>
+		</label>
+		<label>
+			<input name="sort-type-buttons" type="radio" value="id-desc">По убыванию номера<br/>
+		</label>
+		<label>
+			<input name="sort-type-buttons" type="radio" value="name-asc">По алфавиту<br/>
+		</label>
+		<label>
+			<input name="sort-type-buttons" type="radio" value="name-desc">По алфавиту в обратном порядке<br/>
+		</label>
 	</div>
 	<script src="js/script.js"></script>
 </body>
